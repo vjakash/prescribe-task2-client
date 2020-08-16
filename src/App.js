@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import './App.css';
 
 import io from "socket.io-client";
-const socket = io("http://localhost:4000");
+const socket = io("https://prescribe-task2.herokuapp.com");
 
 function App() {
   const [isButton1Disabled, setIsButton1Disabled] = useState(false);
